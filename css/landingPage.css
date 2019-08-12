@@ -1,0 +1,218 @@
+body {
+  background: url("../images/backgroundSat.jpg");
+  background-repeat: no-repeat; background-size: 100% 100%;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 5% auto;
+}
+
+p {
+  margin-top: 1.5%;
+}
+
+ul {
+  display: block;
+  list-style: none;
+  padding-left: 0;
+}
+
+.accomplishmentsList {
+  padding-left: 20px;
+  list-style: circle;
+}
+
+.block {
+  margin: 5% auto;
+  width: 100%;
+}
+
+.blockHeaders {
+  color: #7F8C8D;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.firstWord {
+  color: #3085D6;
+}
+
+#aboutMe {
+  margin-top: 7.5%;
+}
+
+#franciscoPic {
+  height: auto;
+  width: 100%;
+}
+
+.cer {
+  display: inline-block;
+  font-size: 30px;
+  margin: 20px 30px;
+}
+
+#istCer:hover {
+  cursor: default;
+}
+
+#gitHubLogo {
+  display: block;
+  font-size: 50px;
+  text-align: center;
+}
+
+#gitHubLogo:hover, .cer:hover, #franciscoPic:hover {
+  cursor: pointer;
+  cursor: hand;
+  color: #3085D6;
+}
+
+.swal2-content, .swalOkButton {
+  color: #7F8C8D;
+}
+
+/* Mobile S */
+@media screen and (min-width: 320px) {
+  .container {
+    width: 100%;
+  }
+
+  body, h4, .email {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .blockHeaders {
+    font-size: 16px;
+  }
+
+  .icons {
+    text-align: center;
+  }
+
+  .cer {
+    font-size: 20px;
+  }
+
+  .accomplishmentsList {
+    padding-top: 12px;
+  }
+
+  #gitHubLogo {
+    font-size: 35px;
+  }
+
+  #mdGeneralInfo {
+    display: none;
+  }
+
+  .row {
+    margin-left: 5px;
+    margin-right: 5px;  
+  }
+}
+
+/* Mobile M */
+@media screen and (min-width: 375px) {
+
+}
+
+/* Mobile L */
+@media screen and (min-width: 425px) {
+
+}
+
+/* Tablet S */
+@media screen and (min-width: 768px) {
+  body, h4, .email {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .blockHeaders {
+    font-size: 20px;
+  }
+
+  #franciscoPic {
+    height: auto;
+    width: 50%;
+  }
+}
+
+/* Tablet M*/
+@media screen and (min-width: 992px) {
+  .container {
+    width: 80%;
+  }
+
+  #columnOne {
+    border-right-style: dotted;
+    border-right-color: #3085D6;
+  }
+
+  .row #columnBottom {
+    border-top-style: dotted;
+    border-top-color: #3085D6;
+  }
+
+  #columnBottom .blockHeaders {
+    padding-top: 30px;
+  }
+
+  #thor-hammer .block {
+    margin-top: 20px;
+    margin-bottom: 40px; 
+  }
+
+  #smGeneralInfo {
+    display: none;
+  }
+  
+  #mdGeneralInfo {
+    display: block;
+  }
+}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {
+
+}
+
+/* Laptop L */
+@media screen and (min-width: 1440px) {
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1600px) {
+
+}
+
+/* Desktop-ultra-hd */
+@media screen and (min-width: 2560px) {
+  body, h4, .email {
+    font-size: 20px;
+  }
+
+  .cer {
+    font-size: 35px;
+  }
+
+  #gitHubLogo {
+    font-size: 60px;
+  }
+}

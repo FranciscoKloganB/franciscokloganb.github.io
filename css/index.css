@@ -1,0 +1,23 @@
+body {
+  overflow: hidden;
+  background-image: url("../images/backgroundSat.jpg");
+}
+
+ul {
+  list-style: none;
+  padding:0;
+}
+
+li {
+  color: #3085D6;
+  display: inline-block;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10% 5px;
+}
+
+#welcomeMessage {
+  margin-top: 20%;
+  text-align: center;
+}
