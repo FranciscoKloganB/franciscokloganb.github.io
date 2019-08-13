@@ -22,8 +22,9 @@ p {
   margin-top: 1.5%;
 }
 
-a, u {
-  text-decoration: none;
+a, a:link, a:visited, a:active {
+  color: #333333;
+  text-decoration: none !important;
 }
 
 ul {
@@ -79,7 +80,7 @@ ul {
   text-align: center;
 }
 
-#gitHubLogo:hover, .cer:hover, #franciscoPic:hover {
+#gitHubLogo:hover, .cer:hover, #franciscoPic:hover, a:hover {
   cursor: pointer;
   cursor: hand;
   color: #3085D6;
