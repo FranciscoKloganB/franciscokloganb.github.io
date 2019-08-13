@@ -79,27 +79,21 @@ $('#istMeicProgram').click(function() {
   window.open("https://fenix.tecnico.ulisboa.pt/cursos/meic-t/curriculo", '_blank');
 });
 
-$('#istMeicCer').css({"color" : "grey"});
-/* $('#istCer').click(function() {
-  // TODO
-}); */
-
 $('#istLeicProgram').click(function() {
   window.open("https://fenix.tecnico.ulisboa.pt/cursos/leic-t/curriculo", '_blank');
-});
-
-$('#istLeicCer').click(function() {
-  window.open("docs/ist_leic_diploma.pdf", "Cookery and Food Production graduation certificate", '_blank');
 });
 
 $('#eshteProgram').click(function() {
   window.open("http://www.eshte.pt/contents/ds_documents/par-7287.pdf", '_blank');
 });
 
-$('#eshteCer').click(function() {
-  window.open("docs/eshte_certificate.pdf", "Cookery and Food Production graduation certificate", '_blank');
-});
 
-$('#eslfbCer').click(function() {
-  window.open("docs/eslfb_diploma.pdf", "High School Diploma", '_blank');
+$('#istMeicCer').css({"color" : "grey"});
+
+/*
+$('a[href*="pdf"]').click(function(e) {
+  e.preventDefault();            
+  var pdf = $(this).attr("href"); // get the url of the pdf
+  window.open(pdf, '_blank');     // open the pdf in a new window/tab
 });
+*/
