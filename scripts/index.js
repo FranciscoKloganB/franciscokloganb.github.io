@@ -29,7 +29,7 @@ $(document).ready(function() {
     character.each(function() {
     	$(this).fadeIn(1000).css({"transform": "translate(0, 0)"});
     });
-  }, 250);
+  }, 100);
   /** Make welcomeMessage object fade out */
   setTimeout(function() {
     welcomeMessage.fadeOut(1000);
@@ -37,5 +37,5 @@ $(document).ready(function() {
   /** Replace current location to the landing page */
   setTimeout(function() {
     window.location.replace("html/landingPage.html");
-  }, 3000);
+  }, 2500);
 });
