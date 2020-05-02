@@ -2,6 +2,20 @@ p.is-larger {
     font-weight: 600;
 }
 
+.footer {
+    height: 3vh;
+}
+
+button#toTop {
+    margin: 3.5vh;
+}
+
+.footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+}
+
 @media screen and (min-width: 768px) {
     p {
         text-align: justify;
