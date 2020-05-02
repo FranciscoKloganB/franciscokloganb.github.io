@@ -1,14 +1,15 @@
 body {
   background: url("../images/backgroundSat.jpg");
   background-repeat: no-repeat; background-size: 100% 100%;
+  font-family: 'Ovo', serif;
   font-size: 18px;
-  font-family: 'Raleway', sans-serif;
   text-align: left;
 }
 
 h4 {
-  font-size: 20px;
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: 600;
 }
 
 img {
@@ -45,9 +46,9 @@ ul {
 
 .blockHeaders {
   color: #7F8C8D;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -96,12 +97,16 @@ ul {
     width: 100%;
   }
 
-  body, h4, .email {
+  body, .email {
     font-size: 14px;
     text-align: left;
   }
 
-  .blockHeaders {
+  h4 {
+    text-align: left;
+  }
+
+  h4, .blockHeaders {
     font-size: 16px;
   }
 
@@ -129,16 +134,6 @@ ul {
     margin-left: 5px;
     margin-right: 5px;  
   }
-}
-
-/* Mobile M */
-@media screen and (min-width: 375px) {
-
-}
-
-/* Mobile L */
-@media screen and (min-width: 425px) {
-
 }
 
 /* Tablet S */
