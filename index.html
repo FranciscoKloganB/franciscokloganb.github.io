@@ -6,19 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Francisco Barros - Software Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;800&family=Neuton:wght@200;300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.2/css/bulma.min.css" />
   <link rel="stylesheet" type="text/css" href="css/showcase.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
   <script src="https://kit.fontawesome.com/2828f7885a.js" crossorigin="anonymous"></script>
   <link rel="icon" type="image/png" href="favicon.png" />
 </head>
 
 <body>
-  <!-- Begin Preloader -->
-  <div class="preloader-wrapper">
-    <div class="preloader">
-      <img src="img/preloader.gif" alt="" />
-    </div>
-  </div>
   <!-- End Preloader-->
   <!-- Begin Scroll Up Button -->
   <form action="#home">
@@ -82,7 +78,6 @@
       <!-- Begin Hero Content-->
       <div class="hero-body">
         <div class="container has-text-centered">
-          <h1 class="subtitle">Hey there, I'm</h1>
           <h2 class="title">Francisco Barros</h2>
           <h1 class="subtitle profession">Full-time software engineer, Part-time photographer</h1>
         </div>
@@ -132,33 +127,25 @@
           <h1 class="title has-text-centered section-title">About Me</h1>
         </div>
         <div class="columns is-multiline">
-          <div class="column is-6 has-vertically-aligned-content" data-aos="fade-right">
-            <p class="is-larger">
-              &emsp;&emsp;<strong>Francisco Barros, 29 years old</strong>
-            </p>
+          <div class="column is-three-fifths has-vertically-aligned-content" data-aos="fade-right">
+            <p class="is-larger">Francisco Barros, 29 years old</p>
             <br />
             <p>
               I am currently due to deliver my master's dissertation by the end of the current year.
-              I study in Instituto Superior Técnico, where I learned a few programming languages, technologies, and methodologies. 
+              I study in Instituto Superior Técnico, where I learned a few programming languages, technologies, and methodologies.
+              <br><br>
               In an extracurricular context, I undertook an internship at Talkdesk, and I'm currently developing my photography portfolio/online shop using the Django and Bulma Frameworks. 
-              I must say it's looking great. 
-              Until then, you can see some of my enthusiast photography work on my temporary SmugMug website. 
-              Before accomplishing my dream of pursuing a software engineering career, I completed a bachelor degree in Produção Alimentar e Restauração, which roughly translates to something like, Cookery and Food Management and Security, i.e., a degree in hospitality/tourism fields. 
-              I was a pastry intern at the Ritz Lisbon, worked a few more months as a pastry man at Pastelaria Ribeiro, and then accepted a job as deputy chief of operations the famous hamburger chain, where I managed H3 Cascais for two-years. 
-              In my free time, I play tennis, frequently hit the gym, play video-games, and the physical version of Magic: The Gathering. 
+              I must say it's looking great. Until then, you can see some of my enthusiast photography work on my temporary SmugMug website.
+              <br><br>
+              Before accomplishing my dream of pursuing a software engineering career, I completed a bachelor degree in Produção Alimentar e Restauração, which roughly translates to something like, Cookery and Food Management and Security, i.e., a degree in hospitality/tourism fields.
+              I was a pastry intern at the Ritz Lisbon, worked a few more months as a pastry man at Pastelaria Ribeiro, and then accepted a job as deputy chief of operations the famous hamburger chain, where I managed H3 Cascais for two-years.
+            <br><br>
+              In my free time, I play tennis, frequently hit the gym, play video-games, and the physical version of Magic: The Gathering.
               I want to learn more about coffee, and I like to think that this is the next thing I will get into as soon as my photography platform is complete.
             </p>
             <br />
             <div class="is-divider"></div>
             <div class="columns about-links">
-              <div class="column">
-                <p class="heading">
-                  <strong>Ring me</strong>
-                </p>
-                <p class="subheading">
-                  (+351) 913 309 132
-                </p>
-              </div>
               <div class="column">
                 <p class="heading">
                   <strong>Email Me</strong>
@@ -169,6 +156,16 @@
               </div>
               <div class="column">
                 <p class="heading">
+                  <strong>Ring me</strong>
+                </p>
+                <p class="subheading">
+                  (+351) 913 309 132
+                </p>
+              </div>
+            </div>
+            <div class="columns about-links">
+              <div class="column">
+                <p class="heading">
                   <strong>See my portfolio</strong>
                 </p>
                 <p class="subheading">
@@ -177,8 +174,10 @@
               </div>
             </div>
           </div>
-          <div class="column is-6 right-image " data-aos="fade-left">
-            <img class="is-rounded" src="https://picsum.photos/id/366/600/375" alt="" />
+          <div class="column is-two-fifths right-image" data-aos="fade-left">
+            <figure class="image is-2by3">
+              <img class="is-rounded" src="img/FBZ_2072.jpg"alt="" />
+            </figure>
           </div>
         </div>
       </div>
@@ -189,18 +188,15 @@
         <div class="columns is-multiline" data-aos="fade-in" data-aos-easing="linear">
           <div class="column is-12 about-me">
             <h1 class="title has-text-centered section-title">
-              View My Resume
+              Download My Resume
             </h1>
           </div>
           <div class="column is-10 has-text-centered is-offset-1">
             <h2 class="subtitle">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et doloremagna aliqua
+              For more detailed information, feel free to download my resume below.
             </h2>
-            <form action="example.docs">
-              <button class="button">
-                Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
-              </button>
+            <form method="GET" action="docs/resume.pdf" target="_blank">
+              <button class="button">Download Resume&emsp;<i class="fad fa-download fa-lg"></i></button>
             </form>
           </div>
         </div>
@@ -213,64 +209,35 @@
           <div class="column is-12 about-me" data-aos="fade-in" data-aos-easing="linear">
             <h1 class="title has-text-centered section-title">Services</h1>
 
-            <h2 class="subtitle">
-              Specielties in Distributed Systems and Cyber-Security, some Game Development
+            <h2 class="subtitle has-text-centered">
+              Specielties in Distributed Systems and Cyber-Security with a sprinkle of Game Development
             </h2>
             <br />
           </div>
           <div class="columns is-12">
             <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
-              <i class="fad fa-meteor fa-3x"></i>
+              <i class="fas fa-code fa-3x"></i>
               <hr />
               <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                Readable, efficient, and, secure backends. I am a capable restful API developer. Experience with android application development and video-game development using Unity.
               </h2>
             </div>
             <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
               <i class="fas fa-paint-brush fa-3x"></i>
               <hr />
               <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                Presentation is not complicated — clean, modern, and responsive designs for your web applications using only JavaScript and CSS frameworks.
               </h2>
             </div>
             <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
-              <i class="fas fa-rocket fa-3x"></i>
+              <i class="fad fa-rocket fa-3x"></i>
               <hr />
               <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                Mentoring and Coaching. Sharing knowledge is a crucial factor in any company. I like teaching as much as I love learning.
               </h2>
             </div>
           </div>
           <hr />
-          <div class="columns is-12">
-            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
-              <i class="fas fa-upload fa-3x"></i>
-              <hr />
-              <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua
-              </h2>
-            </div>
-            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
-              <i class="fas fa-bus fa-3x"></i>
-              <hr />
-              <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua
-              </h2>
-            </div>
-            <div class="column is-4 has-text-centered" data-aos="fade-in" data-aos-easing="linear">
-              <i class="fas fa-code fa-3x"></i>
-              <hr />
-              <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua
-              </h2>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -283,16 +250,6 @@
             <h1 class="title has-text-centered section-title">Skills</h1>
           </div>
           <div class="column is-6" data-aos="fade-in" data-aos-easing="linear">
-            <h1>Adobe Experience Design</h1>
-            <progress class="progress" value="70" max="100">30%</progress>
-            <h1>Adobe After Effects</h1>
-            <progress class="progress" value="65" max="100">30%</progress>
-            <h1>Visual Studio Code</h1>
-            <progress class="progress" value="58" max="100">45%</progress>
-            <h1>Sketch</h1>
-            <progress class="progress" value="90" max="100">60%</progress>
-          </div>
-          <div class="column is-6" data-aos="fade-in" data-aos-easing="linear">
             <h1>HTML</h1>
             <progress class="progress" value="85" max="100">30%</progress>
             <h1>CSS</h1>
@@ -301,6 +258,16 @@
             <progress class="progress" value="70" max="100">45%</progress>
             <h1>React</h1>
             <progress class="progress" value="60" max="100">60%</progress>
+          </div>
+          <div class="column is-6" data-aos="fade-in" data-aos-easing="linear">
+            <h1>Adobe Experience Design</h1>
+            <progress class="progress" value="70" max="100">30%</progress>
+            <h1>Adobe After Effects</h1>
+            <progress class="progress" value="65" max="100">30%</progress>
+            <h1>Visual Studio Code</h1>
+            <progress class="progress" value="58" max="100">45%</progress>
+            <h1>Sketch</h1>
+            <progress class="progress" value="90" max="100">60%</progress>
           </div>
         </div>
       </div>
@@ -380,7 +347,7 @@
 
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="../js/showcase.js"></script>
+  <script src="scripts/showcase.js"></script>
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <script>
