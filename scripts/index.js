@@ -32,10 +32,10 @@ $(document).ready(function() {
   }, 250);
   /** Make welcomeMessage object fade out */
   setTimeout(function() {
-    welcomeMessage.fadeOut(1200);
-  }, 4500);
+    welcomeMessage.fadeOut(1000);
+  }, 2000);
   /** Replace current location to the landing page */
   setTimeout(function() {
     window.location.replace("html/landingPage.html");
-  }, 6000);
+  }, 3000);
 });
