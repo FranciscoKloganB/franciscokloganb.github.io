@@ -1,7 +1,11 @@
-/* Make Montserrat bold */
-p.is-larger {
-    font-weight: 600;
-    letter-spacing: 0.1rem;
+/* Places the back to top icon a bit above the footer */
+button#toTop {
+    margin: 5vh;
+}
+
+/* Thinner footer */
+.footer {
+    height: 5vh;
 }
 
 /*Prettify titles and subtiles */
@@ -9,14 +13,10 @@ h1.title {
     letter-spacing: 0.4rem;
 }
 
-/* Places the back to top icon a bit above the footer */
-button#toTop {
-    margin: 3.5vh;
-}
-
-/* Thinner footer */
-.footer {
-    height: 3vh;
+/* Make Montserrat bold */
+p.is-larger {
+    font-weight: 600;
+    letter-spacing: 0.1rem;
 }
 
 /* Make footer as small as possible without sacrificing readability */
@@ -30,7 +30,6 @@ button#toTop {
     .hero .title {
         font-size: 2rem;
     }
-
 }
 
 @media screen and (min-width: 385px) and (max-width: 499px){
@@ -39,9 +38,38 @@ button#toTop {
     }
 }
 
+/* Make about me section prettier, but possibly harder to read on some devices using justify */
+@media screen and (min-width: 768px) {
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* Places the back to top icon a bit above the footer */
+    button#toTop {
+        margin: 3.5vh;
+    }
+
+    /* Thinner footer */
+    .footer {
+        height: 3vh;
+    }
+}
+
 @media screen and (max-width: 829px) {
+    p.is-larger {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
     .subtitle.profession {
         font-size: 1rem;
+    }
+
+    h1.title {
+        font-size: 1.5rem;
     }
 }
 
@@ -54,14 +82,5 @@ button#toTop {
 @media screen and (min-width: 500px) and (max-width: 950px){
     .hero .title {
         font-size: 4rem;
-    }
-}
-
-
-/* Make about me section prettier, but possibly harder to read on some devices using justify */
-@media screen and (min-width: 768px) {
-    p {
-        text-align: justify;
-        text-justify: inter-word;
     }
 }
