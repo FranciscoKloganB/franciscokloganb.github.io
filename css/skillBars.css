@@ -1,7 +1,8 @@
 .skillbar {
 	position:relative;
 	display:block;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   font-size:15px;
 	margin: 15px auto;
 	width:100%;
