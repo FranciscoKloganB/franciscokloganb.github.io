@@ -26,6 +26,38 @@ button#toTop {
     font-size: 10px;
 }
 
+@media screen and (max-width: 384px){
+    .hero .title {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 385px) and (max-width: 499px){
+    .hero .title {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 829px) {
+    .subtitle.profession {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 830px) and (max-width: 934px){
+    .subtitle.profession {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 950px){
+    .hero .title {
+        font-size: 4rem;
+    }
+}
+
+
 /* Make about me section prettier, but possibly harder to read on some devices using justify */
 @media screen and (min-width: 768px) {
     p {
