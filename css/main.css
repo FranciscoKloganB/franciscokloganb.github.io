@@ -1,295 +1,67 @@
-body {
-  background: url("../images/backgroundSat.jpg");
-  background-repeat: no-repeat; background-size: 100% 100%;
-  font-family: 'Ovo', serif;
-  font-size: 18px;
-  text-align: left;
+/* Make Montserrat bold */
+p.is-larger {
+    font-weight: 600;
+    letter-spacing: 0.1rem;
 }
 
-h4 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 21px;
+/*Prettify titles and subtiles */
+h1.title {
+    letter-spacing: 0.4rem;
 }
 
-img {
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-  margin: 5% auto;
+/* Places the back to top icon a bit above the footer */
+button#toTop {
+    margin: 3.5vh;
 }
 
-p {
-  margin-top: 1.5%;
+/* Thinner footer */
+.footer {
+    height: 3vh;
 }
 
-a, a:link, a:visited, a:active {
-  color: #333333;
-  text-decoration: none !important;
+/* Make footer as small as possible without sacrificing readability */
+.footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
 }
 
-ul {
-  display: block;
-  list-style: none;
-  padding-left: 0;
+@media screen and (max-width: 384px){
+    .hero .title {
+        font-size: 2rem;
+    }
+
 }
 
-.accomplishmentsList {
-  padding-left: 20px;
-  list-style: circle;
+@media screen and (min-width: 385px) and (max-width: 499px){
+    .hero .title {
+        font-size: 3rem;
+    }
 }
 
-.block {
-  margin: 5% auto;
-  width: 100%;
+@media screen and (max-width: 829px) {
+    .subtitle.profession {
+        font-size: 1rem;
+    }
 }
 
-.blockHeaders {
-  color: #7F8C8D;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 30px;
-  text-transform: uppercase;
+@media screen and (min-width: 830px) and (max-width: 934px){
+    .subtitle.profession {
+        font-size: 1.5rem;
+    }
 }
 
-.firstWord {
-  color: #3085D6;
+@media screen and (min-width: 500px) and (max-width: 950px){
+    .hero .title {
+        font-size: 4rem;
+    }
 }
 
-#aboutMe {
-  margin-top: 7.5%;
-}
 
-#franciscoPic {
-  height: auto;
-  width: 100%;
-}
-
-.cer {
-  display: inline-block;
-  font-size: 30px;
-  margin: 20px 30px;
-}
-
-#istCer:hover {
-  cursor: default;
-}
-
-#gitHubLogo {
-  display: block;
-  font-size: 50px;
-  text-align: center;
-}
-
-#gitHubLogo:hover, .cer:hover, #franciscoPic:hover, a:hover {
-  cursor: pointer;
-  cursor: hand;
-  color: #3085D6;
-}
-
-.swal2-content, .swalOkButton {
-  color: #7F8C8D;
-}
-
-.skillbar {
-	position:relative;
-	display:block;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size:15px;
-	margin: 15px auto;
-	width:100%;
-	background: #EEE;
-	height:35px;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	-webkit-transition:0.4s linear;
-	-moz-transition:0.4s linear;
-	-ms-transition:0.4s linear;
-	-o-transition:0.4s linear;
-	transition:0.4s linear;
-	-webkit-transition-property:width, background-color;
-	-moz-transition-property:width, background-color;
-	-ms-transition-property:width, background-color;
-	-o-transition-property:width, background-color;
-	transition-property:width, background-color;
-}
-
-.skillbar-title {
-	position:absolute;
-	top: 0;
-	left: 0;
-  width: 110px;
-	font-weight:bold;
-	font-size: 13px;
-	color: white;
-	background:#6ADCFA;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:4px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
-}
-
-.skillbar-title span {
-	display:block;
-	background:rgba(0, 0, 0, 0.05);
-	padding:0 7px;
-	width: 90px;
-	height:35px;
-	line-height:35px;
-	-webkit-border-top-left-radius:3px;
-	-webkit-border-bottom-left-radius:3px;
-	-moz-border-radius-topleft:3px;
-	-moz-border-radius-bottomleft:3px;
-	border-top-left-radius:3px;
-	border-bottom-left-radius:3px;
-}
-
-.skillbar-bar {
-	height:35px;
-	width:0px;
-	background:#6adcfa;
-	border-radius:3px;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-}
-
-.skill-bar-percent {
-	position:absolute;
-	right:10px;
-	top:0;
-	font-size:11px;
-	height:35px;
-	line-height:35px;
-	color:#ffffff;
-	color:rgba(0, 0, 0, 0.4);
-}
-
-/* Mobile S */
-@media screen and (min-width: 320px) {
-  .container {
-    width: 100%;
-  }
-
-  body, .email {
-    font-size: 14px;
-    text-align: left;
-  }
-
-  h4 {
-    text-align: left;
-  }
-
-  h4, .blockHeaders {
-    font-size: 16px;
-  }
-
-  .icons {
-    text-align: center;
-  }
-
-  .cer {
-    font-size: 20px;
-  }
-
-  .accomplishmentsList {
-    padding-top: 12px;
-  }
-
-  #gitHubLogo {
-    font-size: 35px;
-  }
-
-  #mdGeneralInfo {
-    display: none;
-  }
-
-  .row {
-    margin-left: 5px;
-    margin-right: 5px;  
-  }
-}
-
-/* Tablet S */
+/* Make about me section prettier, but possibly harder to read on some devices using justify */
 @media screen and (min-width: 768px) {
-  body, h4, .email {
-    font-size: 15px;
-    text-align: left;
-  }
-
-  .blockHeaders {
-    font-size: 20px;
-  }
-
-  #franciscoPic {
-    height: auto;
-    width: 50%;
-  }
-}
-
-/* Tablet M*/
-@media screen and (min-width: 992px) {
-  .container {
-    width: 80%;
-  }
-
-  #columnOne {
-    border-right-style: dotted;
-    border-right-color: #3085D6;
-  }
-
-  .row #columnBottom {
-    border-top-style: dotted;
-    border-top-color: #3085D6;
-  }
-
-  #columnBottom .blockHeaders {
-    padding-top: 30px;
-  }
-
-  #thor-hammer .block {
-    margin-top: 20px;
-    margin-bottom: 40px; 
-  }
-
-  #smGeneralInfo {
-    display: none;
-  }
-  
-  #mdGeneralInfo {
-    display: block;
-  }
-}
-
-/* Laptop */
-@media screen and (min-width: 1024px) {
-
-}
-
-/* Laptop L */
-@media screen and (min-width: 1440px) {
-
-}
-
-/* Desktop */
-@media screen and (min-width: 1600px) {
-
-}
-
-/* Desktop-ultra-hd */
-@media screen and (min-width: 2560px) {
-  body, h4, .email {
-    font-size: 20px;
-  }
-
-  .cer {
-    font-size: 35px;
-  }
-
-  #gitHubLogo {
-    font-size: 60px;
-  }
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }
