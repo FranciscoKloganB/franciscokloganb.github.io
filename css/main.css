@@ -8,8 +8,8 @@ body {
 
 h4 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 21px;
   font-weight: 600;
+  font-size: 21px;
 }
 
 img {
@@ -47,8 +47,8 @@ ul {
 .blockHeaders {
   color: #7F8C8D;
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
   font-weight: 600;
+  font-size: 30px;
   text-transform: uppercase;
 }
 
