@@ -1,0 +1,10 @@
+p.is-larger {
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+    p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
