@@ -96,8 +96,8 @@ p.heading {
     font-size: 0.7rem;
 }
 
-p.heading {
-    font-size: 0.8rem;
+p.subheading {
+    font-size: 0.6rem;
 }
 
 p.is-larger {
@@ -110,7 +110,7 @@ p.is-larger {
     }
 
     p.subheading {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     p.is-larger{
