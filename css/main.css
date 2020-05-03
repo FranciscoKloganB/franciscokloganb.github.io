@@ -83,7 +83,7 @@ button#toTop {
 
 /* Make Montserrat bold */
 p {
-    font-size: 0.9rem;
+    font-size: 1.0rem;
     text-align: justify;
     text-justify: inter-word;
 }
@@ -94,7 +94,13 @@ p.is-larger {
 
 @media screen and (min-width: 1024px) {
     p, p.is-larger{
-        font-size: 1rem;
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    p, p.is-larger{
+        font-size: 1.25rem;
     }
 }
 /*endregion*/
