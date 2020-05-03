@@ -1,6 +1,6 @@
 /*region Hero Title and Subtitle styles */
 .hero .title {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
 }
 
 .subtitle.profession {
@@ -97,14 +97,14 @@ p.is-larger {
 }
 
 @media screen and (min-width: 1024px) {
-    p, p.is-larger{
-        font-size: 1.125rem;
+    p.is-larger{
+        font-size: 1.25rem;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    p, p.is-larger{
-        font-size: 1.25rem;
+    p.is-larger{
+        font-size: 1.4rem;
     }
 }
 /*endregion*/
