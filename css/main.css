@@ -118,9 +118,15 @@ p.is-larger {
 }
 /*endregion*/
 
-#region Hotfix
+/*region Hotfix*/
 div.button-container {
-    margin-top: 2vh !important;
+    margin-top: 5vh !important;
+}
+
+@media screen and (min-width: 1024) {
+    div.button-container {
+        margin-top: 4vh !important;
+    }
 }
 
 button.button:hover {
@@ -128,4 +134,4 @@ button.button:hover {
     background: #43485c !important;
     color: white !important;
 }
-#endregion
+/*endregion*/
