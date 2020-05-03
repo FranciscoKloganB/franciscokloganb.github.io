@@ -74,22 +74,26 @@ button#toTop {
     .footer {
         height: 3vh;
     }
-
-    p.is-larger {
-        letter-spacing: 0.1rem;
-    }
 }
 /*endregion*/
 
 /*region Paragraph styles*/
+
+
+/* Make Montserrat bold */
 p {
+    font-size: 0.8rem;
     text-align: justify;
     text-justify: inter-word;
 }
 
-/* Make Montserrat bold */
 p.is-larger {
-    font-size: 14px;
     font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+    p, p.is-larger{
+        font-size: 1rem;
+    }
 }
 /*endregion*/
