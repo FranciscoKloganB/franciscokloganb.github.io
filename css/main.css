@@ -111,10 +111,6 @@ p.is-larger {
 }
 
 @media screen and (min-width: 1440px) {
-    p.heading, p.subheading {
-        font-size: 0.85rem;
-    }
-
     p.is-larger{
         font-size: 1.4rem;
     }
