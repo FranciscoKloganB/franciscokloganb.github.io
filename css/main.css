@@ -126,6 +126,16 @@ progress.progress {
     border-color: #3c4172;
 }
 
+.card-header {
+    box-shadow: none;
+}
+
+.card-header-title {
+    display: block !important;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
 div.button-container {
     margin-top: 5vh !important;
 }
