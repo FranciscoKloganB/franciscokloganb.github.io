@@ -83,9 +83,6 @@ button#toTop {
 /*endregion*/
 
 /*region Paragraph styles*/
-
-
-/* Make Montserrat bold */
 p {
     font-size: 1.0rem;
     text-align: justify;
@@ -120,3 +117,9 @@ p.is-larger {
     }
 }
 /*endregion*/
+
+#region Hotfix
+.button-container {
+    margin-top: 3vh;
+}
+#endregion
