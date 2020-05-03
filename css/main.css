@@ -93,11 +93,11 @@ p {
 }
 
 p.heading {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
-p.heading, p.subheading {
-    font-size: 0.6rem;
+p.subheading {
+    font-size: 0.7rem;
 }
 
 p.is-larger {
@@ -105,14 +105,6 @@ p.is-larger {
 }
 
 @media screen and (min-width: 1024px) {
-    p.heading {
-        font-size: 0.8rem;
-    }
-
-    p.subheading {
-        font-size: 0.7rem;
-    }
-
     p.is-larger{
         font-size: 1.25rem;
     }
