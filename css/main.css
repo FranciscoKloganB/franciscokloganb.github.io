@@ -119,15 +119,17 @@ p.is-larger {
 /*endregion*/
 
 /*region Hotfix*/
+
+progress.progress {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3c4172;
+}
+
 div.button-container {
     margin-top: 5vh !important;
 }
 
-@media screen and (min-width: 1024) {
-    div.button-container {
-        margin-top: 4vh !important;
-    }
-}
 
 button.button:hover {
     border: 2px solid white !important;
