@@ -122,4 +122,10 @@ p.is-larger {
 div.button-container {
     margin-top: 2vh !important;
 }
+
+button.button:hover {
+    border: 2px solid white !important;
+    background: #43485c !important;
+    color: white !important;
+}
 #endregion
