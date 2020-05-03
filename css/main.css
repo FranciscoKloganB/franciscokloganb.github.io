@@ -92,6 +92,10 @@ p {
     text-justify: inter-word;
 }
 
+p.heading {
+    font-size: 1.0rem;
+}
+
 p.is-larger {
     font-weight: 600;
 }
