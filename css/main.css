@@ -96,12 +96,20 @@ p.heading {
     font-size: 0.7rem;
 }
 
+p.heading {
+    font-size: 0.8rem;
+}
+
 p.is-larger {
     font-weight: 600;
 }
 
 @media screen and (min-width: 1024px) {
     p.heading {
+        font-size: 0.8rem;
+    }
+
+    p.subheading {
         font-size: 0.9rem;
     }
 
