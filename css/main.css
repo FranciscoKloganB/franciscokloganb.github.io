@@ -119,7 +119,7 @@ p.is-larger {
 /*endregion*/
 
 #region Hotfix
-.button-container {
-    margin-top: 3vh;
+div.button-container {
+    margin-top: 2vh !important;
 }
 #endregion
