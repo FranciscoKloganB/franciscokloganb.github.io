@@ -4,11 +4,11 @@
 }
 
 .subtitle.profession {
-    font-size: 1rem;
+    font-size: 1.2rem; /* previously 1rem */
 }
 
 h1.title {
-    font-size: 18px !important;
+    font-size: 1.2rem !important;
     letter-spacing: 1px !important;
 }
 
@@ -24,11 +24,11 @@ h1.title {
     }
 
     .subtitle.profession {
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 
     h1.title {
-        font-size: 20px;
+        font-size: 1.6rem !important;
         letter-spacing: 0.2rem !important;
     }
 }
@@ -43,7 +43,7 @@ h1.title {
     }
 
     h1.title {
-        font-size: 22px;
+        font-size: 1.75rem !important;
         letter-spacing: 0.4rem !important;
     }
 }
