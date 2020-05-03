@@ -92,8 +92,12 @@ p {
     text-justify: inter-word;
 }
 
-p.heading, p.subheading {
+p.heading {
     font-size: 0.7rem;
+}
+
+p.heading, p.subheading {
+    font-size: 0.6rem;
 }
 
 p.is-larger {
@@ -101,8 +105,12 @@ p.is-larger {
 }
 
 @media screen and (min-width: 1024px) {
-    p.heading, p.subheading  {
+    p.heading {
         font-size: 0.8rem;
+    }
+
+    p.subheading {
+        font-size: 0.7rem;
     }
 
     p.is-larger{
