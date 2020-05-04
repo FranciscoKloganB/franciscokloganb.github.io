@@ -52,7 +52,7 @@ h1.title {
 
 /*region Footer and toTop button styles*/
 .footer {
-    height: 6vh;
+    height: 7vh !important;
 }
 
 .footer p{
@@ -62,7 +62,7 @@ h1.title {
 }
 
 button#toTop {
-    margin: 6.5vh;
+    margin: 7.5vh !important;
 }
 
 button#toTop .svg-inline--fa {
@@ -72,7 +72,7 @@ button#toTop .svg-inline--fa {
 @media screen and (min-width: 1024px) {
     /* Thinner footer */
     .footer {
-        height: 3vh;
+        height: 3vh !important;
     }
 
     .footer p {
@@ -80,7 +80,7 @@ button#toTop .svg-inline--fa {
     }
 
     button#toTop {
-        margin: 3.5vh;
+        margin: 3.5vh !important;
     }
 
     button#toTop .svg-inline--fa {
