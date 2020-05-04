@@ -51,10 +51,6 @@ h1.title {
 /*endregion*/
 
 /*region Footer and toTop button styles*/
-button#toTop {
-    margin: 5vh;
-}
-
 .footer {
     height: 5vh;
 }
@@ -65,12 +61,15 @@ button#toTop {
     font-size: 0.75rem;
 }
 
-@media screen and (min-width: 1024px) {
-    /* Places the back to top icon a bit above the footer */
-    button#toTop {
-        margin: 3.5vh;
-    }
+button#toTop {
+    margin: 5vh;
+}
 
+button#toTop .svg-inline--fa {
+    padding-bottom: 0.4vh;
+}
+
+@media screen and (min-width: 1024px) {
     /* Thinner footer */
     .footer {
         height: 3vh;
@@ -78,6 +77,10 @@ button#toTop {
 
     .footer p {
         font-size: 10px !important;
+    }
+
+    button#toTop {
+        margin: 3.5vh;
     }
 }
 /*endregion*/
@@ -119,6 +122,15 @@ p.is-larger {
 /*endregion*/
 
 /*region Hotfix*/
+div.button-container {
+    margin-top: 5vh !important;
+}
+
+button.button:hover {
+    border: 2px solid white !important;
+    background: #43485c !important;
+    color: white !important;
+}
 
 progress.progress {
     border-style: solid;
@@ -130,25 +142,15 @@ progress.progress {
     box-shadow: 0 0.1em 0.1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
 
-.card .main-content {
-    text-align: justify;
-    text-justify: inter-word;
-}
-
 .card-header-title {
     display: block !important;
     font-weight: 600;
     text-transform: lowercase;
 }
 
-div.button-container {
-    margin-top: 5vh !important;
-}
 
-
-button.button:hover {
-    border: 2px solid white !important;
-    background: #43485c !important;
-    color: white !important;
+.card .main-content {
+    text-align: justify;
+    text-justify: inter-word;
 }
 /*endregion*/
