@@ -52,7 +52,7 @@ h1.title {
 
 /*region Footer and toTop button styles*/
 .footer {
-    height: 8.33vh !important;
+    height: 8.5vh !important;
 }
 
 .footer p{
@@ -62,7 +62,7 @@ h1.title {
 }
 
 button#toTop {
-    margin: 6.2vh !important;
+    margin: 6.4vh !important;
 }
 
 button#toTop .svg-inline--fa {
