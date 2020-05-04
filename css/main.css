@@ -51,10 +51,18 @@ h1.title {
 /*endregion*/
 
 /*region Footer and toTop button styles*/
+.footer {
+    height: 6vh;
+}
+
 .footer p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 0.75rem;
+}
+
+button#toTop {
+    margin: 6.5vh;
 }
 
 button#toTop .svg-inline--fa {
