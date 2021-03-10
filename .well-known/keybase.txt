@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/franciscokloganb
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://franciscokloganb.github.io
+  * I am franciscokloganb (https://keybase.io/franciscokloganb) on keybase.
+  * I have a public key ASCZzmhyHBFkchRIBk4OW6LEhmwjCitZdE5_HGGzE_pBaAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012099ce68721c1164721448064e0e5ba2c4866c230a2b59744e7f1c61b313fa41680a",
+      "host": "keybase.io",
+      "kid": "012099ce68721c1164721448064e0e5ba2c4866c230a2b59744e7f1c61b313fa41680a",
+      "uid": "fa9394b946b0d5b3ce9c64c7f7307619",
+      "username": "franciscokloganb"
+    },
+    "merkle_root": {
+      "ctime": 1611058848,
+      "hash": "20927a0ad452cbc6cb280a2212aedcce2c1f58d97cbf7374db2403d53fb70ed654d098b54535edc09fa9810a2b438fb1e7bcf963e6b0da0f1e8d857d42d0492f",
+      "hash_meta": "a80fb40f2ee7c4d5430e18905725a6ab735539a460dfbeb5c00d7c54017c092a",
+      "seqno": 18831205
+    },
+    "service": {
+      "entropy": "dMeUwoMpppn3VQpVMho5eAVN",
+      "hostname": "franciscokloganb.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1611058861,
+  "expire_in": 504576000,
+  "prev": "7468c6325614e01d91c3e59209d2f5de74826874bb7b8976049f1da88604cf9a",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgmc5ochwRZHIUSAZODluixIZsIworWXROfxxhsxP6QWgKp3BheWxvYWTESpcCCcQgdGjGMlYU4B2Rw+WSCdL13nSCaHS7e4l2BJ8dqIYEz5rEIDpkNOwa/dSxmDmkmbWYAvTe2FHtU8TxbzlLgcxVWHX+AgHCo3NpZ8RAx539XAkYo57ImeHyp1HOuRf1rNx8RunUwpyPsLDhbM60D3h0soAPOUMfPbUjmvw/pzf7W3diEpfW2e89SpVjAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFROyz4ImvYsj7GL7NM+IDRbj2C0n6Q0AcAci5cnHrTlo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/franciscokloganb
+
+==================================================================

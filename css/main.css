@@ -1,0 +1,161 @@
+/*region Hero Title and Subtitle styles */
+.hero .title {
+    font-size: 2.8rem;
+}
+
+.subtitle.profession {
+    font-size: 1.0rem;
+}
+
+h1.title {
+    font-size: 1.4rem !important;
+    font-weight: 600;
+    letter-spacing:0.1rem !important;
+}
+
+@media screen and (min-width: 768px) {
+    .hero .title {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero .title {
+        font-size: 5rem;
+    }
+
+    .subtitle.profession {
+        font-size: 1.6rem;
+    }
+
+    h1.title {
+        font-size: 1.6rem !important;
+        letter-spacing: 0.2rem !important;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero .title {
+        font-size: 6rem;
+    }
+
+    .subtitle.profession {
+        font-size: 2rem;
+    }
+
+    h1.title {
+        font-size: 1.75rem !important;
+        letter-spacing: 0.4rem !important;
+    }
+}
+/*endregion*/
+
+/*region Footer and toTop button styles*/
+.footer {
+    height: 8.5vh !important;
+}
+
+.footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+}
+
+button#toTop {
+    margin: 7vh !important;
+}
+
+button#toTop .svg-inline--fa {
+    padding-bottom: 0.3vh;
+}
+
+@media screen and (min-width: 1024px) {
+    /* Thinner footer */
+    .footer {
+        height: 3vh !important;
+    }
+
+    .footer p {
+        font-size: 10px !important;
+    }
+
+    button#toTop {
+        margin: 3.5vh !important;
+    }
+
+    button#toTop .svg-inline--fa {
+        padding-bottom: 0.4vh;
+    }
+
+}
+/*endregion*/
+
+/*region Paragraph styles*/
+p {
+    font-size: 1.0rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+p.heading {
+    font-size: 0.75rem;
+}
+
+p.subheading {
+    font-size: 0.75rem;
+}
+
+p.is-larger {
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+    p.heading {
+        font-size: 0.8rem;
+    }
+
+    p.is-larger{
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    p.is-larger{
+        font-size: 1.4rem;
+    }
+}
+/*endregion*/
+
+/*region Hotfix*/
+div.button-container {
+    margin-top: 5vh !important;
+}
+
+button.button:hover {
+    border: 2px solid white !important;
+    background: #43485c !important;
+    color: white !important;
+}
+
+progress.progress {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3c4172;
+}
+
+.card-header {
+    box-shadow: 0 0.1em 0.1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
+}
+
+.card-header-title {
+    display: block !important;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+
+.card .main-content {
+    text-align: justify;
+    text-justify: inter-word;
+}
+/*endregion*/
